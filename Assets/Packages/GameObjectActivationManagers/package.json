@@ -1,0 +1,18 @@
+{
+    "name"       : "com.xjine.gameobject_activation_managers",
+    "displayName": "GameObject Activation Managers", 
+    "version"    : "1.0.0",
+    "unity"      : "2022.3",
+    "description": "Manage the active state of a specific GameObjects.",
+    "author"     :
+    {
+        "name": "XJINE",
+        "url" : "https://github.com/XJINE"
+    },
+    "keywords":
+    [
+    ],
+    "dependencies":
+    {
+    }
+}
