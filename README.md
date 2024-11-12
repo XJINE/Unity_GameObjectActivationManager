@@ -14,5 +14,4 @@ https://github.com/XJINE/Unity_GameObjectActivationManagers.git?path=Assets/Pack
 
 This project use following resources.
 
-- [Unity_SingletonMonoBehaviour](https://github.com/XJINE/Unity_SingletonMonoBehaviour)
 - [Unity_IInitializable](https://github.com/XJINE/Unity_IInitializable)
