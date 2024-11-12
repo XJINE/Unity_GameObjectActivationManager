@@ -11,10 +11,10 @@ namespace GameObjectActivationManagers
         public override bool Initialize()
         {
             Components = FindObjectsOfType<T>(includeInactive: true)
-                        .OrderBy(testPattern => testPattern.gameObject.name)
+                        .OrderBy(component => component.gameObject.name)
                         .ToList().AsReadOnly();
 
-            GameObjects = Components.Select(target => target.gameObject).ToList().AsReadOnly();
+            GameObjects = Components.Select(component => component.gameObject).ToList().AsReadOnly();
 
             IsInitialized = true;
             return true;
