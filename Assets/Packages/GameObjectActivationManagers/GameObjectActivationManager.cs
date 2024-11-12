@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace GameObjectActivationManagers
 {
-    public abstract class GameObjectActivationManager : SingletonMonoBehaviour<GameObjectActivationManager>, IInitializable
+    public abstract class GameObjectActivationManager : MonoBehaviour, IInitializable
     {
         [SerializeField] private bool activeOnStart = false;
 

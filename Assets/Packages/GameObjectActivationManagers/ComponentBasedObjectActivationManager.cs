@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace GameObjectActivationManagers
 {
-    public class ComponentBasedObjectActivationManager<T> : GameObjectActivationManager where T : Component
+    public abstract class ComponentBasedObjectActivationManager<T> : GameObjectActivationManager where T : Component
     {
         public IReadOnlyList<T> Components { get; protected set; }
 
